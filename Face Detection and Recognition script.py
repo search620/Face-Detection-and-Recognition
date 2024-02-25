@@ -94,8 +94,8 @@ def main(input_dir, export_dir, target_face_path, enable_target_face):
     gc.collect()
 
 if __name__ == "__main__":
-    input_dir = r"C:\Users\HOME\Desktop\1\input_test"
-    export_dir = r"C:\Users\HOME\Desktop\1\output"
-    target_face_path = r"C:\Users\HOME\Desktop\1\Tess Taylor's\3 Tess Taylor's.jpg"
+    input_dir = r"input_path"
+    export_dir = r"export_path"
+    target_face_path = r"Target_Face_Image_Path"
     enable_target_face = True  # Set this to False to disable target face detection
     main(input_dir, export_dir, target_face_path, enable_target_face)
