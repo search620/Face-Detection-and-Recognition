@@ -7,8 +7,6 @@ import gc
 import numpy as np
 
 
-
-
 def normalize_image(image_path):
     """
     Normalize an image by applying histogram equalization to its luminance channel.
